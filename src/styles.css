@@ -1,0 +1,43 @@
+:root {
+  --bg-color: #043d5d;
+  --white-color: #ffffff;
+  --red-color: #ff4d4d;
+  --empty--cell-color: #042e46;
+  --fill--cell-color: #24b683;
+  --last--fill--cell-color: #0d595e;
+  --cell--border-color: #043b5a;
+  --cols: 10;
+  --rows: 12;
+  --tile-size: 56px;
+  --border-width: 1px;
+
+  --bg-orange: #feb851;
+  --empty--cell-orange: #ffcf68;
+  --bg-dart-text-color: #666699;
+}
+html,
+body,
+div#root {
+  height: 100%;
+  overflow: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  font-family: "futura-pt", Helvetica, sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  background-color: var(--bg-color);
+  color: var(--white-color);
+  padding: 20px;
+}
